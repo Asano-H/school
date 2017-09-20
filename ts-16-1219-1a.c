@@ -7,4 +7,5 @@ int main(void){
 	z=pow(x,y);
 	
 	printf("%f\n",z);
+	return 0;
 }
