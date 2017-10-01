@@ -5,7 +5,7 @@ int main(void){
 	scanf("%d",&score);
 
 	if(score>=80){
-		ptintf("優\n");
+		printf("優\n");
 	}else if(score>=70){
 		printf("良\n");
 	}else if(score>=60){
