@@ -5,7 +5,7 @@ int main(void){
 
 	x=2.0;
 	y=3.0;
-	z=aqrt(x);
+	z=sqrt(x);
 	printf("z=%f\n",z);
 
 	z=sqrt(y);
