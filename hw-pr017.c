@@ -1,3 +1,4 @@
+/*１～１０まで足した値を出力するプログラム*/
 #include<stdio.h>
 int main(void){
 	int  i,sum;
