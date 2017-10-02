@@ -9,7 +9,7 @@ void suretu_keisan(int n){
 }
 int main(void){
 	int x;
-	printf("ä½•é …ã¾ã§è¡¨ç¤ºã—ã¾ã™ã‹(1ï½100)ï¼š");
+	printf("‰½€‚Ü‚Å•\¦‚µ‚Ü‚·‚©(1~100)F");
 	scanf("%d",&x);
 	suretu_keisan(x);
 
