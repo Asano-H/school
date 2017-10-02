@@ -4,6 +4,7 @@ void fill(int a[], int n, int v){
 	for(i=0; i<n; i++){
 		a[i]=v;	/*配列aにv(=0)を代入*/
 	}
+}
 
 void fill0(int a[], int n){
 	fill(a, n, 0);
