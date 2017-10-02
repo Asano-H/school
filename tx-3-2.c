@@ -2,14 +2,14 @@
 int main(void){
 	int a,b;
 
-	puts("äºŒã¤ã®æ•´æ•°ã‚’å…¥åŠ›");
-	printf("Aï¼š\n");	scanf("%d",&a);
-	printf("Bï¼š\n");	scanf("%d".&b);
+	puts("2‚Â‚Ì®”‚ğ“ü—Í‚µ‚Ä‚¾‚³‚¢B");
+	printf("AF");	scanf("%d",&a);
+	printf("BF");	scanf("%d",&b);
 
 	if(a%b){
-		puts("Bã¯Aã®ç´„æ•°ã§ã¯ãªã„ã€‚");
+		puts("B‚ÍA‚Ì–ñ”‚Å‚Í‚È‚¢B");
 	}else{
-		puts("Bã¯Aã®ç´„æ•°ã€‚");
+		puts("B‚ÍA‚Ì–ñ”B");
 	}
 	return 0;
 }
