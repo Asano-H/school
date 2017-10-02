@@ -1,9 +1,9 @@
-/*ç„¡é™ãƒ«ãƒ¼ãƒ—*/
+/*–³ŒÀƒ‹[ƒv*/
 #include<stdio.h>
 int main(void){
 	int i,sum=0;
 	for(i=1;1;i++){
-		printf("Ctrl+Cã‚’æŠ¼ã—ã¦ãã ã•ã„");
+		printf("Ctrl+C‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢");
 		sum+=i;
 	}
 	printf("sum=%d\n",sum);

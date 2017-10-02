@@ -2,17 +2,17 @@
 int main(void){
 	int point;
 
-	printf("å¾—ç‚¹ï¼š");
+	printf("“¾“_");
 	scanf("%d",&point);
 
 	if(point<=60)
-		puts("ä¸å¯");
+		puts("•s‰Â");
 	else if(point<=70)
-		puts("å¯");
+		puts("‰Â");
 	else if(point<=80)
-		puts("è‰¯");
+		puts("—Ç");
 	else
-		puts("å„ª");
+		puts("—D");
 
 	return 0;
 }
