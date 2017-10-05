@@ -1,14 +1,14 @@
 #include<stdio.h>
-#define swap(type,a,b) do{type t=a;a=b;b=t}while(0)
+#define swap(type,a,b) do{type t=a; a=b; b=t;}while(0)
 
 int main(void){
 	int a,b;
-	
-	printf("æ•´æ•°ã‚’ï¼’ã¤å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ï¼š");
-	printf("Aï¼š"); scanf("%d",&a);
-	printf("Bï¼š"); scanf("%d",&b);
+
+	printf("‚Q‚Â‚Ì®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B\n");
+	printf("AF"); scanf("%d",&a);
+	printf("BF"); scanf("%d",&b);
 	swap(int,a,b);
-	printf("å€¤ã‚’äº¤æ›ã—ã¾ã—ãŸã€‚\nAï¼š%dBï¼š%d",a,b);
+	printf("’l‚ğŒğŠ·‚µ‚Ü‚µ‚½B\nAF%d\nBF%d\n",a,b);
 
 	return 0;
 }
