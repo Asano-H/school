@@ -8,11 +8,10 @@ void print_bits(unsigned x){
 
 int main(void){
 	unsigned a=1,b=3,c=5,d=15;
-
-	printf("a & b == b & cã®å€¤ã¯%uã§ã™\n",a&b==b&c);
-	printf("b & d ã®2é€²æ•°è¡¨è¨˜ã®ä¸‹8æ¡ã¯")
-	print_bits(b&d);
-	printf("ã§ã™\n");
+	printf("a & b == b & c‚Ì’l‚Í%u‚Å‚·\n",a&b==b&c);
+	printf("b & d ‚Ì‚Qi”•\\‹L‚Ì‰º‚WŒ…‚Í");
+	print_bits(b & d);
+	printf("‚Å‚·\n");
 
 	return 0;
 }	
