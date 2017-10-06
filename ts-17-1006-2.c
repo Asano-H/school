@@ -3,9 +3,10 @@
 int main(void){
 	int a=2,b=3;
 	if(a>b){
-		printf("%d",diff(int,a,b));
+		swap(int,a,b);
+		printf("%d,%d",a,b);
 	}else
-		printf("aã¯bã‚ˆã‚Šå¤§ãã„ã§ã™");
+		printf("a‚Íb‚æ‚è‘å‚«‚¢‚Å‚·\n");
 
 	return 0;
 }
