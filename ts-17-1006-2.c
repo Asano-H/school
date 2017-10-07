@@ -10,3 +10,6 @@ int main(void){
 
 	return 0;
 }
+/*
+defineで行う式が複数行ある場合は、do while文を使う。
+制御式が(0)なので一度しか実行されない。*/
