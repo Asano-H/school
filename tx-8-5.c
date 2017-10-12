@@ -1,4 +1,4 @@
-/*ãƒãƒ–ãƒ«ã‚½ãƒ¼ãƒˆ*/
+/*ƒoƒuƒ‹ƒ\[ƒg*/
 #include<stdio.h>
 #define NUMBER 5
 
@@ -16,15 +16,18 @@ void sort(int a[],int n){
 int main(void){
 	int weight[NUMBER];
 	int i;
-	printf("%däººã®ä½“é‡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„",NUMBER);
+
+	printf("%d‘Ìd‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n",NUMBER);
 	for(i=0; i<NUMBER; i++){
-		printf("%dç•ª",i+1);
+		printf("%d”Ô\n",i+1);
 		scanf("%d",weight[i]);
 	}
+
 	sort(weight,NUMBER);
-	printf("ã‚½ãƒ¼ãƒˆã—ã¾ã—ãŸ");
+	printf("ƒ\\[ƒg‚µ‚Ü‚µ‚½");
+
 	for(i=0; i<NUMBER; i++){
-		printf("%dç•ªï¼š%d",i+1,weight[i]);
+		printf("%d”ÔF%d\n",i+1,weight[i]);
 	}
 	return 0;
 }
