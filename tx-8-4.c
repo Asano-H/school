@@ -5,10 +5,10 @@
 
 int main(void){
 	int num;
-	printf("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F")
+	printf("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d",&num);
-	if (n)
-		puts_alert("‚»‚Ì”‚Í‚O‚Å‚Í‚ ‚è‚Ü‚¹‚ñ")
+	if (num)
+		puts_alert("‚»‚Ì”‚Í‚O‚Å‚Í‚ ‚è‚Ü‚¹‚ñ");
 	else
 		puts_alert("‚»‚Ì”‚Í‚O‚Å‚·");
 	return 0;
