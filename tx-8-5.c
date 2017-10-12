@@ -21,5 +21,10 @@ int main(void){
 		printf("%d番",i+1);
 		scanf("%d",weight[i]);
 	}
-
+	sort(weight,NUMBER);
+	printf("ソートしました");
+	for(i=0; i<NUMBER; i++){
+		printf("%d番：%d",i+1,weight[i]);
+	}
+	return 0;
 }
