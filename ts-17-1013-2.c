@@ -1,13 +1,13 @@
 #include<stdio.h>
-enum country {USA,UK,France,China};
+enum country {USA,UK,Japan,France,China};
 
 void printCountry(enum country c){
 	switch(c){
-		case USA:printf("繧｢繝｡繝ｪ繧ｫ\n");break;
-		case UK:printf("繧､繧ｮ繝ｪ繧ｹ\n");break;
-		case Japan:printf("譌･譛ｬ\n");break;
-		case France:printf("繝輔Λ繝ｳ繧ｹ\n");break;
-		case China:printg("荳ｭ蝗ｽ\n");break;
+		case USA:printf("アメリカ\n");break;
+		case UK:printf("イギリス\n");break;
+		case Japan:printf("日本\n");break;
+		case France:printf("フランス\n");break;
+		case China:printf("中国\n");break;
 	}
 }
 int main(void){
