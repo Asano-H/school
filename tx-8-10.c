@@ -9,7 +9,7 @@ int gcd(int x,int y){
 
 int main(void){
 	int x,y;
-	printf("Å‘åŒö–ñ”‚ğ‹‚ß‚Ü‚·");
+	printf("\n");
 	printf("‚wF");	scanf("%d",&x);
 	printf("‚xF");	scanf("%d",&y);
 
