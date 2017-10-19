@@ -10,8 +10,8 @@ int comb(int n,int r){
 int main(void){
 	int n,r;
 	printf("異なるn個からr個を取り出す組み合わせの数を求める");
-	print("n：")		scanf("%d",&n);
-	print("r：");	scanf("%d",&r);
+	printf("n：");	scanf("%d",&n);
+	printf("r：");	scanf("%d",&r);
 	printf("組み合わせの数：%d",comb(n,r));
 }
 
