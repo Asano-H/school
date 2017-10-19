@@ -1,4 +1,4 @@
-/*éšä¹—*/
+/*ŠKæ*/
 #include<stdio.h>
 int fact(int no){
 	if(no>0)
@@ -9,10 +9,10 @@ int fact(int no){
 
 int main(void){
 	int num;
-	printf("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
+	printf("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
 	scanf("%d",&num);
 
-	printf("%dã®éšä¹—ã¯%dã§ã™",num,fact(num));
+	printf("%d‚ÌŠKæ‚Í%d‚Å‚·",num,fact(num));
 
 	return 0;
 }
