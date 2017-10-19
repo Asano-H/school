@@ -13,4 +13,6 @@ int main(void){
 	scanf("%d",&num);
 
 	printf("%dの階乗は%dです",num,fact(num));
+
+	return 0;
 }
