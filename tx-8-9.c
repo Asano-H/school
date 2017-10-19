@@ -1,13 +1,18 @@
-/*çµ„ã¿åˆã‚ã›ã®æ•°ã‚’æ±‚ã‚ã‚‹*/
+/*‘g‚İ‡‚í‚¹‚Ì”*/
 #include<stdio.h>
 int comb(int n,int r){
 	if( n==r || n ==0 )
 		return 1;
 	else if( r==1 )
 		return n;
-	
-	
-
+	return conb(n-1,r-1) + comb(n-1,r);
+}
+int main(void){
+	int n,r;
+	printf("ˆÙ‚È‚énŒÂ‚©‚çrŒÂ‚ğæ‚èo‚·‘g‚İ‡‚í‚¹‚Ì”‚ğ‹‚ß‚é");
+	print("nF")		scanf("%d",&n);
+	print("rF");	scanf("%d",&r);
+	printf("‘g‚İ‡‚í‚¹‚Ì”F%d",comb(n,r));
 }
 
 
