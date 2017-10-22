@@ -6,7 +6,7 @@ int main(void){
 	int x,y;
 	x=256;
 	y=512;
-	printf("%dã¨%dã®æœ€å¤§å…¬ç´„æ•°ã¯%dã§ã™"x,y,gcd(x,y));
+	printf("%d‚Æ%d‚ÌÅ‘åŒö–ñ”‚Í%d‚Å‚·"x,y,gcd(x,y));
 
 	return 0;
 }
