@@ -3,7 +3,7 @@ int main(void){
 	int line;
 	int count=0;
 	while((line=getchar()) != EOF){
-		if(line'\n')
+		if(line=='\n')
 			count++;
 	}
 	printf("s”F%d\n",count);
