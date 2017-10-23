@@ -7,7 +7,7 @@ int main(void){
 		if(r >= '0' && r <= '9')
 			cnt[r-'0']++;
 	}
-	printf("”Žš•¶Žš‚ÌoŒ»‰ñ”");
+	puts("”Žš•¶Žš‚ÌoŒ»‰ñ”");
 	for(i=0;i<10;i++){
 		printf("%dF",i);
 		for(j=0;j<cnt[i];j++)
