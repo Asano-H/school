@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(void){
-	int r;
+	int line;
 	int count=0;
-	while((r=getchar()) != EDF){
-		if(r='\n')
+	while((line=getchar()) != EOF){
+		if(line'\n')
 			count++;
 	}
-	printf("%d",count);
+	printf("s”F%d\n",count);
 
 	return 0;
 }
