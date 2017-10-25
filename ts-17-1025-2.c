@@ -9,3 +9,5 @@ int main(void){
 
 	return 0;
 }
+
+/*x++‚ÍÅŒã‚Éx=x+1‚ªÀs‚³‚ê‚é*/
