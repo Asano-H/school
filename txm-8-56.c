@@ -2,7 +2,7 @@
 int main(void){
 	int no;
 	int i=0;
-	printf("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
+	printf("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
 	scanf("%d",&no);
 
 	for(i=0; i<no; i++)
