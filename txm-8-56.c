@@ -6,5 +6,5 @@ int main(void){
 	scanf("%d",&no);
 
 	for(i=0; i<no; i++)
-		putchar();
+		putchar('0'+no%3+1);
 }
