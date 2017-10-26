@@ -2,7 +2,7 @@
 void show(int v[], int len){
 	int i;
 	for(i=0; i<len; i++){
-		printf("%dç•ªç›®ã®è¦ç´ ï¼š%d\n",i,v[i]);
+		printf("%d”Ô–Ú‚Ì—v‘fF%d\n",i,v[i]);
 	}
 }
 
@@ -13,11 +13,11 @@ void clear(int v[], int len, int val){
 	}
 }
 int main(void){
-	int x[5]={1,30,-5,2,5000}:
-	puts("(åˆæœŸçŠ¶æ…‹)");
+	int x[5]={1,30,-5,2,5000};
+	puts("(‰Šúó‘Ô)");
 	show(x,5);
 	clear(x,5,100);
-	puts("(clearé–¢æ•°ã‚’å‘¼å‡ºã—ãŸå¾Œ)");
+	puts("(clearŠÖ”‚ðŒÄo‚µ‚½Œã)");
 	show(x,5);
 	return 0;
 }
