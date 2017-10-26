@@ -1,8 +1,8 @@
 #include<stdio.h>
 void show(int v[], int len){
 	int i;
-	if(i=0; i<len; i++){
-		printf("%d",v[i]);
+	for(i=0; i<len; i++){
+		printf("%d”Ô–Ú‚Ì—v‘fF%d\n",i,v[i]);
 	}
 }
 
