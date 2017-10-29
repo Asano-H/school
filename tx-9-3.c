@@ -1,7 +1,7 @@
 /*”z—ñ‚ÉŠi”[‚³‚ê‚½•¶š—ñ‚ğ‹ó•¶š—ñ‚É‚·‚é*/
 #include<stdio.h>
 int main(void){
-	char s[]= "ABCDEFGHIJK" ;
+	char s[]= "ABCDEFGHIJK";	/*s[]={'A','B','C','\0'};*/@
 	char str[100];
 
 	printf("strF");
