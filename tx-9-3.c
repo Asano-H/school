@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void){
 	char s[100],str[100];
-	s = "ABC";
+	s == "ABC";
 	printf("str‚ÍF");
 	scanf("%s",&str);
 
