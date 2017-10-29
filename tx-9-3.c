@@ -17,5 +17,4 @@ int main(void){
 	printf("str‚Í\"%s\"\n",str);
 
 	return 0;
-
 }
