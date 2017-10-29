@@ -1,17 +1,20 @@
+/*配列に格納された文字列を空文字列にする*/
 #include<stdio.h>
 int main(void){
-	char s[100],str[100];
-	s == "ABC";
-	printf("strは：");
-	scanf("%s",&str);
+	char s[]= "ABCDEFGHIJK" ;
+	char str[100];
 
-	printf("sは：%s",s);
-	printf("strは：%s",str);
+	printf("str：");
+	scanf("%s",str);	/*&はつけない*/
 
-	s[0] = '\0';
+	printf("sは：%s\n",s);
+	printf("strは：%s\n",str);
+
+	s[3] = '\0';
 	str[0] = '\0';
-	printf("sは%s",s);
-	printf("strは%s",str);
+	printf("空文字列にしました\n");
+	printf("sは\"%s\"\n",s);
+	printf("strは\"%s\"\n",str);
 
 	return 0;
 
