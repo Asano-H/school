@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(void){
 	char str[]={"ABC\0DEF"};
-	printf("æ–‡å­—åˆ—strã¯%sã§ã™"str);
+	printf("•¶š—ñstr‚Í%s‚Å‚·",str);
 	return 0;
 }
