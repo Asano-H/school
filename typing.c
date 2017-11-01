@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
 
 void typing_color(void){
-	char word[]={"red","blue","green","yellow"};
+	char word[4][50]={"red","blue","green","yellow"};
 	int i;
 	srand((unsigned)time(NULL));
 	for(i=0;i<5;i++)
