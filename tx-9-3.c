@@ -1,20 +1,20 @@
-/*配列に格納された文字列を空文字列にする*/
+/*Don't write Japanese!!!!!!! fuck !!!!!!*/
 #include<stdio.h>
 int main(void){
-	char s[]= "ABCDEFGHIJK";	/*s[]={'A','B','C','\0'};*/　
+	char s[]= "ABCDEFGHIJK";	/*s[]={'A','B','C','\0'};*/ﾂ　
 	char str[100];
 
-	printf("str：");
-	scanf("%s",str);	/*&はつけない*/
+	printf("strﾂ：");
+	scanf("%s",str);	/*&窶堙坂堙や堋ｯ窶堙遺堋｢*/
 
-	printf("sは：%s\n",s);
-	printf("strは：%s\n",str);
+	printf("s窶堙債：%s\n",s);
+	printf("str窶堙債：%s\n",str);
 
 	s[3] = '\0';
 	str[0] = '\0';
-	printf("空文字列にしました\n");
-	printf("sは\"%s\"\n",s);
-	printf("strは\"%s\"\n",str);
+	printf("窶ｹﾃｳ窶｢ﾂｶﾅｽﾅ｡窶氾ｱ窶堙俄堋ｵ窶堙懌堋ｵ窶堋ｽ\n");
+	printf("s窶堙構"%s\"\n",s);
+	printf("str窶堙構"%s\"\n",str);
 
 	return 0;
 }
