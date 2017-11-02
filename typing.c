@@ -2,9 +2,9 @@
 #include<time.h>
 #include<stdlib.h>
 
-#define NUMBER 5
+#define NUMBER 6
 int ransu(void){
-	int a[NUMBER];
+	int a;
 	int i;
 
 	srand((unsigned)time(NULL));
@@ -14,7 +14,7 @@ int ransu(void){
 }
 
 void typing_color(void){
-	char word[4][50]={"red","yellow","orange","green","blue","purple"};
+	char word[NUMBER][50]={"red","yellow","orange","green","blue","purple"};
 	int i;
 	char ans;
 
