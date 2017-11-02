@@ -25,7 +25,7 @@ void typing_color(void){
 		wordchange = ransu();
 		printf("%s\n",word[wordchange]);
 		scanf("%s",ans);
-		if(strcmp(wordchange,ans)){
+		if(strcmp(word[wordchange],ans)){
 			puts("ê≥â!");
 			break;
 		}else{
