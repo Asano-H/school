@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
+#include<string.h>
 
 #define NUMBER 6
 int ransu(void){
@@ -15,15 +16,21 @@ int ransu(void){
 
 void typing_color(void){
 	char word[NUMBER][50]={"red","yellow","orange","green","blue","purple"};
-	int i;
 	char ans;
+	int i,wordchange;
 
 	ransu();
 	for(i=0;i<NUMBER;i++){
 
-		printf("%s",word[ransu()]);
+		wordchange = ransu();
+		printf("%s\n",word[wordchange]);
 		scanf("%s",ans);
-		printf("%s",ans);
+		if(strcmp(wordchange,ans)){
+			puts("³‰ð!");
+			break;
+		}else{
+			puts("É‚µ‚¢!");
+		}
 	}
 }
 
