@@ -19,7 +19,6 @@ void typing_color(void){
 	char ans;
 	int i,wordchange;
 
-	ransu();
 	for(i=0;i<NUMBER;i++){
 
 		wordchange = ransu();
