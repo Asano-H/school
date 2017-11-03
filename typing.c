@@ -21,7 +21,7 @@ void typing_color(void){
 
 	for(i=0;i<5;i++){
 		wordchange = ransu();
-		while(word != ans){
+		while(*word != ans){
 			printf("%s\n",word[wordchange]);
 			gets(ans);
 			if(strcmp(word[wordchange],ans)){
