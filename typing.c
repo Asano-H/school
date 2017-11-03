@@ -25,10 +25,10 @@ void typing_color(void){
 			printf("%s\n",word[wordchange]);
 			gets(ans);
 			if(strcmp(word[wordchange],ans)){
-				puts("³‰ğ");
-				break;
-			}else{
 				puts("É‚µ‚¢!");
+			}else{
+				puts("³‰ğ!");
+				break;
 			}
 		}
 	}
