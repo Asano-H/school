@@ -16,7 +16,7 @@ int ransu(void){
 
 void typing_color(void){
 	char word[NUMBER][50]={"red","yellow","orange","green","blue","purple"};
-	char ans;
+	char ans[256];
 	int i,wordchange;
 
 	for(i=0;i<5;i++){
@@ -24,7 +24,7 @@ void typing_color(void){
 		while(word != ans){
 			printf("%s\n",word[wordchange]);
 			gets(ans);
-			if(strcmp(word[wordchange],&ans)){
+			if(strcmp(word[wordchange],ans)){
 				puts("³‰ð");
 				break;
 			}else{
