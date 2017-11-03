@@ -19,14 +19,13 @@ void typing_color(void){
 	char ans;
 	int i,wordchange;
 
-	for(i=0;i<NUMBER;i++){
+	wordchange = ransu();
 
-		wordchange = ransu();
+	for(i=0;i<NUMBER;i++){
 		printf("%s\n",word[wordchange]);
 		scanf("%s",ans);
 		if(strcmp(word[wordchange],&ans)){
 			puts("³‰ð!");
-			break;
 		}else{
 			puts("É‚µ‚¢!");
 		}
