@@ -25,9 +25,9 @@ void typing_color(void){
 			printf("%s\n",word[wordchange]);
 			gets(ans);
 			if(strcmp(word[wordchange],ans)){
-				puts("É‚µ‚¢!");
+				puts("æƒœã—ã„!");
 			}else{
-				puts("³‰ğ!");
+				puts("æ­£è§£!");
 				break;
 			}
 		}
