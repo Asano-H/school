@@ -3,7 +3,7 @@ int main(void){
 	char s[]= "ABCDEFGHIJK";	/*s[]={'A','B','C','\0'};*/
 	char str[100];
 
-	printf("strF");
+	printf("str:");
 	scanf("%s",str);	/*&はつけない*/
 
 	printf("s:%s\n",s);
