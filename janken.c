@@ -18,17 +18,17 @@ void janken_hitori(void){
 		scanf("%d",&player);
 		te = ransu();
 		if(player>=0 && player<3){
-			puts("ƒ|ƒ“!");
-			printf("‚ ‚È‚½:%s\n  PC  :%s\n",hand[player],hand[te]);
+			puts("\n\nƒ|ƒ“!\n");
+			printf("‚ ‚È‚½:%s\n  PC  :%s\n\n",hand[player],hand[te]);
 			
 			if(player == te){
-				printf("‚ ‚¢‚±!");
+				puts("‚ ‚¢‚±!\n\n");
 			}else if( 		(player == 0 && te == 1)
 						||	(player == 1 && te == 2)
 						||	(player == 2 && te == 0)){
-				puts("‚ ‚È‚½‚ÌŸ‚¿!");
+				puts("‚ ‚È‚½‚ÌŸ‚¿!\n\n");
 			}else{
-				puts("‚ ‚È‚½‚Ì•‰‚¯!");
+				puts("‚ ‚È‚½‚Ì•‰‚¯!\n\n");
 			}
 
 			printf("y9z‚à‚¤ˆê‰ñ—V‚Ô y0z‚à‚¤‚¢‚¢ : ");
