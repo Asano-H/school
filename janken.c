@@ -13,7 +13,7 @@ void janken_hitori(void){
 	char hand[3][50]={"グー","チョキ","パー"};
 	int player,cont,te;
 	do{
-		puts("\n\n##############################\n\n");
+		puts("\n##############################\n");
 		puts("じゃんけん・・・\n\n");
 		printf("【0】グー 【1】チョキ 【2】パー : ");
 		scanf("%d",&player);
@@ -44,7 +44,7 @@ void janken_hitori(void){
 
 int main(void){
 	int ninzu;
-	puts("＊＊＊＊＊＊じゃんけんゲーム＊＊＊＊＊＊");
+	puts("\n\n＊＊＊＊＊＊じゃんけんゲーム＊＊＊＊＊＊\n\n");
 	printf("【1】1人で遊ぶ 【2】2人で遊ぶ : ");
 	scanf("%d",&ninzu);
 	if(ninzu == 1){
