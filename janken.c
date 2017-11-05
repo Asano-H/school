@@ -4,22 +4,27 @@
 
 int ransu(void){
 	int a;
-	int i;
-
 	srand((unsigned)time(NULL));
-	for(i=0;i<NUMBER;i++)
-		a=rand()%3+1;
+		a=rand()%3;
 	return a;
 }
 
 void janken_hitori(void){
-	printf("【1】グー 【2】チョキ 【3】パー");
+	char hand[]={"グー","チョキ","パー"};
+	int player;
+	puts("じゃんけん・・・\n\n")
+
+	printf("【0】グー 【1】チョキ 【2】パー:");
+	scanf("%d",&player);
+
+	puts("ポン!");
+	printf("%s",hand[ransu()]);
+
 
 }
 
 int main(void){
-	printf("")
-	janken();
+	janken_hitori();
 	return 0;
 
 }
