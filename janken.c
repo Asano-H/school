@@ -27,14 +27,14 @@ void janken_hitori(void){
 						||	(player == 1 && hand[te]==2)
 						||	(player == 2 && hand[te]==0)){
 				printf("‚ ‚È‚½‚ÌŸ‚¿!");
-			}else if(		(player)
-				)
-			
+			}else{
+				printf("‚ ‚È‚½‚Ì•‰‚¯!");
+			}
+
 			printf("y9z‚à‚¤ˆê‰ñ—V‚Ô y0z‚à‚¤‚¢‚¢ : ");
 			scanf("%d",&cont);
 		}else{
 			printf("‚à‚¤ˆê“x“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
-			break;
 		}
 
 	}while(cont);
