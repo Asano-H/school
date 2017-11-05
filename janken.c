@@ -41,6 +41,10 @@ void janken_hitori(void){
 	}while(cont);
 }
 
+void janken_ippai(int nin){
+
+}
+
 int main(void){
 	int ninzu;
 
@@ -50,6 +54,8 @@ int main(void){
 
 	if(ninzu == 1){
 		janken_hitori();
+	}else{
+		janken_ippai(ninzu);
 	}
 
 	puts("––––––––––––––––––");
