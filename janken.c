@@ -11,21 +11,33 @@ int ransu(void){
 
 void janken_hitori(void){
 	char hand[3][50]={"ƒO[","ƒ`ƒ‡ƒL","ƒp["};
-	int player;
+	int player,cont,te;
 	do{
 		puts("‚¶‚á‚ñ‚¯‚ñEEE\n\n");
-		printf("y0zƒO[ y1zƒ`ƒ‡ƒL y2zƒp[:");
+		printf("y0zƒO[ y1zƒ`ƒ‡ƒL y2zƒp[ : ");
 		scanf("%d",&player);
-		
-		if(player=>0 && player<3){
+		te = ransu();
+		if(player>=0 && player<3){
 			puts("ƒ|ƒ“!");
-			printf("‚ ‚È‚½:%s\n  PC  :%s\n",hand[player],hand[ransu()]);
+			printf("‚ ‚È‚½:%s\n  PC  :%s\n",hand[player],hand[te]);
+			
+			if(player==hand[te]){
+				printf("‚ ‚¢‚±!");
+			}else if( 		(player == 0 && hand[te]==1)
+						||	(player == 1 && hand[te]==2)
+						||	(player == 2 && hand[te]==0)){
+				printf("‚ ‚È‚½‚ÌŸ‚¿!");
+			}else if(		(player)
+				)
+			
+			printf("y9z‚à‚¤ˆê‰ñ—V‚Ô y0z‚à‚¤‚¢‚¢ : ");
+			scanf("%d",&cont);
 		}else{
 			printf("‚à‚¤ˆê“x“ü—Í‚µ‚Ä‚­‚¾‚³‚¢\n");
-
+			break;
 		}
 
-	}while(cont)
+	}while(cont);
 }
 
 int main(void){
