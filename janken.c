@@ -21,14 +21,14 @@ void janken_hitori(void){
 			puts("ƒ|ƒ“!");
 			printf("‚ ‚È‚½:%s\n  PC  :%s\n",hand[player],hand[te]);
 			
-			if(player==hand[te]){
+			if(player == te){
 				printf("‚ ‚¢‚±!");
-			}else if( 		(player == 0 && hand[te]==1)
-						||	(player == 1 && hand[te]==2)
-						||	(player == 2 && hand[te]==0)){
-				printf("‚ ‚È‚½‚ÌŸ‚¿!");
+			}else if( 		(player == 0 && te == 1)
+						||	(player == 1 && te == 2)
+						||	(player == 2 && te == 0)){
+				puts("‚ ‚È‚½‚ÌŸ‚¿!");
 			}else{
-				printf("‚ ‚È‚½‚Ì•‰‚¯!");
+				puts("‚ ‚È‚½‚Ì•‰‚¯!");
 			}
 
 			printf("y9z‚à‚¤ˆê‰ñ—V‚Ô y0z‚à‚¤‚¢‚¢ : ");
