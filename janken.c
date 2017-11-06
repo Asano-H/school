@@ -41,10 +41,10 @@ void janken_hitori(void){
 	}while(cont);
 }
 
-void janken_ippai(void){
+void janken_hutari(void){
 	char hand[3][50] = {"グー","チョキ","パー"};
 	int player1,player2;
-	puts("じゃんけん・・・")
+	puts("じゃんけん・・・");
 
 }
 
