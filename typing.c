@@ -35,7 +35,7 @@ void typing_color(void){
 		}
 	}
 	end = clock();
-	printf("%f秒")
+	printf("%.2f秒",(double)(end - start)/CLOCKS_PER_SEC);
 }
 
 int main(void){
