@@ -18,7 +18,9 @@ void typing_color(void){
 	char word[NUMBER][50]={"red","yellow","orange","green","blue","purple"};
 	char ans[256];
 	int i,wordchange;
+	clock_t start,end;
 
+	start = clock();
 	for(i=0;i<5;i++){
 		wordchange = ransu();
 		while(*word != ans){
@@ -32,6 +34,8 @@ void typing_color(void){
 			}
 		}
 	}
+	end = clock();
+	printf("%f秒")
 }
 
 int main(void){
