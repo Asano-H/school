@@ -10,7 +10,6 @@ int main(void){
 		str[i] = str[9-i];
 		str[9-i] = ch;		
 	}
-	str[10]='\0';
 	printf("%s",str);
 	return 0;
 }
