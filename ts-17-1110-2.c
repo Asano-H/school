@@ -7,7 +7,7 @@ int main(void){
 
 	for(i=0;i<=9/2;i++){
 		ch = str[i];
-		str = str[9-i];
+		str[i] = str[9-i];
 		str[9-i] = ch;		
 	}
 	str[10]='\0';
