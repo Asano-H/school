@@ -1,7 +1,7 @@
 /*文字列"0123456789"を逆順に表示するプログラム*/
 #include<stdio.h>
 int main(void){
-	char str[]="01234568789";
+	char str[]="0123456789";
 	char ch;
 	int i;
 
