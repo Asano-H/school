@@ -11,5 +11,6 @@ int main(void){
 		str[9-i] = ch;		
 	}
 	str[10]='\0';
+	printf("%s",str);
 	return 0;
 }
