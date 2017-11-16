@@ -12,7 +12,7 @@ int main(void){
 	puts("値を入力：");
 	scanf("%d",&poi);
 
-	poin(poi);
+	poin(&poi);
 	printf("%d",poi);
 
 	return 0;
