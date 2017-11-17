@@ -9,7 +9,7 @@ int main(void){
 	int point;
 	printf("テストの点数は？");
 	scanf("%d",&point);
-	adjust_point(&point);
+	adjust_point(point);
 	printf("点数は%d点です\n",point);
 	return 0;
 }
