@@ -2,7 +2,7 @@
 
 void adjust_point(int n){
 	if(n<0) n=0;
-	if(n>0) n=100;
+	if(n>100) n=100;
 }
 
 int main(void){
