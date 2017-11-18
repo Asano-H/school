@@ -1,16 +1,17 @@
 #include<stdio.h>
 
-void swap(int *a1, *a2){
-	int *temp;
+void swap(int *a1, int *a2){
+	int temp;
 	temp = *a2;
 	*a2 = *a1;
 	*a1 = temp;
 }
 
 void sort3(int *n1, int *n2, int *n3){
-	if(*n1<*n2)	swap(n2,n1);
-	if(*n2<*n3)	swap(n3,n2);
-	if(*n3<*n1)	swap(n1,n3); 
+	if(*n1>*n2)	swap(n1,n2);
+	if(*n2>*n3)	swap(n2,n3);
+	if(*n3>*n1)	swap(n3,n1); 
+
 }
 
 int main(void){
