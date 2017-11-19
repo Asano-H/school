@@ -7,7 +7,8 @@ void div(int a,int b,int *quot,int *rem){
 
 int main(void){
 	int a,b;
-	int ansqu,ansre;
+	int *qu;
+	int *re;
 
 	printf("２つの整数を入力してください\n");
 	printf("整数A:");
@@ -15,6 +16,6 @@ int main(void){
 	printf("整数B:");
 	scanf("%d",&b);
 
-	div(a,b,ansqu,ansre);
-	printf("%d÷%d=%dあまり%d",a,b,ansqu,ansre);
+	div(a,b,&qu,&re);
+	printf("%d÷%d=%dあまり%d",a,b,qu,re);
 }
