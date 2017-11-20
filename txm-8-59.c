@@ -4,9 +4,9 @@ int main(void){
 	int sign;
 
 	printf("数値を入力してください(0~2)");
-	scanf("%d",sign);
+	scanf("%d",&sign);
 
-	swith(sign){
+	switch(sign){
 		case red:	printf("とまれ");		break;
 		case yellow:	printf("ちゅうい");	break;
 		case blue:	printf("すすめ");		break;
