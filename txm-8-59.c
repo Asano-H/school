@@ -10,6 +10,6 @@ int main(void){
 		case red:	printf("とまれ");		break;
 		case yellow:	printf("ちゅうい");	break;
 		case blue:	printf("すすめ");		break;
-	};
+	}
 	return 0;
 }
