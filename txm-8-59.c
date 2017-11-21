@@ -7,9 +7,9 @@ int main(void){
 	scanf("%d",&sign);
 
 	switch(sign){
-		case red:	printf("とまれ");		break;
+		case red:		printf("とまれ");		break;
 		case yellow:	printf("ちゅうい");	break;
-		case blue:	printf("すすめ");		break;
+		case blue:		printf("すすめ");		break;
 	}
 	return 0;
 }
