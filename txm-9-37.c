@@ -14,6 +14,7 @@ void del_non(char s[]){
 
 int main(void){
 	char str[500];
+	char s[500];
 	printf("文字を入力してください\n");
 	scanf("%s",str);
 
