@@ -2,8 +2,13 @@
 #include<stdio.h>
 
 void del_non(char s[]){
-	int i
-
+	int i;
+	int x;
+	while(s[i]){
+		if(s[i] >= '0' && s[i]<='9'){
+			s[x++] = s[i];
+		i++;
+	}
 }
 
 int main(void){
