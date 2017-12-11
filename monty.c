@@ -11,17 +11,18 @@ int ransu(int num){
 	return x;
 }
 
-int nitaku(int iranai){
+int nitaku(int no1,no2){
 	int choice;
+	
 	do{
 		choice = ransu(2);
-	}while(choice == iranai)	/*iranaiの値ではない乱数を返す*/
+	}while(choice == no1 && choice == no2);	/*noの値ではない乱数を返す*/
 
 	return choice;
 }
 
 
-int monty(int *first,*second){
+int monty(int *first,int *second){
 	int ans,choice1,choice2,hazure,i;
 
 	for(i=0;i<NUMBER;i++){
@@ -29,17 +30,19 @@ int monty(int *first,*second){
 		ans = ransu(2);	/*景品の入ったドア*/
 		choice1 = ransu(2);	/*初めに選んだドア*/
 
-		hazure = nitaku(ans);	/*モンティが開けるハズレのドア	ansではないどちらか*/
-		choice2 = nitaku(hazure);	/*二回目に選ぶドア　hazureではないどちらか*/
+		if(ans == choice1){
+			hazure = nitaku(ans,ans);	/*モンティが開けるハズレのドア	ansではないどちらか*/
+		}else{
+			switch()
+		}
+		choice2 = nitaku(hazure,ans);	/*二回目に選ぶドア　hazureとans以外のドア*/
 
 		if(ans == choice1 && choice1 == choice2){
 			*first++;
 		}else{
 			*second++;
 		}
-
-	}
-	
+	}	
 }
 
 int main(void){
