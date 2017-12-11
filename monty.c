@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-#define NUMBER 10	/*å®Ÿé¨“ã™ã‚‹å›æ•°*/
+#define NUMBER 10	/*ÀŒ±‚·‚é‰ñ”*/
 
 int ransu(int num){
 	int x;
@@ -11,12 +11,12 @@ int ransu(int num){
 	return x;
 }
 
-int nitaku(int no1,no2){
+int monty_choice(int no1,int no2){
 	int choice;
 	
 	do{
 		choice = ransu(2);
-	}while(choice == no1 && choice == no2);	/*noã®å€¤ã§ã¯ãªã„ä¹±æ•°ã‚’è¿”ã™*/
+	}while(choice == no1 && choice == no2);	/*no‚Ì’l‚Å‚Í‚È‚¢—”‚ğ•Ô‚·*/
 
 	return choice;
 }
@@ -27,15 +27,11 @@ int monty(int *first,int *second){
 
 	for(i=0;i<NUMBER;i++){
 
-		ans = ransu(2);	/*æ™¯å“ã®å…¥ã£ãŸãƒ‰ã‚¢*/
-		choice1 = ransu(2);	/*åˆã‚ã«é¸ã‚“ã ãƒ‰ã‚¢*/
+		ans = ransu(3);	/*Œi•i‚Ì“ü‚Á‚½ƒhƒA*/
+		choice1 = ransu(3);	/*‰‚ß‚É‘I‚ñ‚¾ƒhƒA*/
 
-		if(ans == choice1){
-			hazure = nitaku(ans,ans);	/*ãƒ¢ãƒ³ãƒ†ã‚£ãŒé–‹ã‘ã‚‹ãƒã‚ºãƒ¬ã®ãƒ‰ã‚¢	ansã§ã¯ãªã„ã©ã¡ã‚‰ã‹*/
-		}else{
-			switch()
-		}
-		choice2 = nitaku(hazure,ans);	/*äºŒå›ç›®ã«é¸ã¶ãƒ‰ã‚¢ã€€hazureã¨ansä»¥å¤–ã®ãƒ‰ã‚¢*/
+		hazure = monty_choice(ans,ans);	/*ƒ‚ƒ“ƒeƒB‚ªŠJ‚¯‚éƒnƒYƒŒ‚ÌƒhƒA	ans‚Å‚Í‚È‚¢‚Ç‚¿‚ç‚©*/
+		choice2 = monty_choice(hazure,ans);	/*“ñ‰ñ–Ú‚É‘I‚ÔƒhƒA@hazure‚ÆansˆÈŠO‚ÌƒhƒA*/
 
 		if(ans == choice1 && choice1 == choice2){
 			*first++;
@@ -49,9 +45,9 @@ int main(void){
 	int c1,c2;
 	monty(&c1,&c2);
 	
-	printf("æ­£è§£ã—ãŸæ•°\n");
-	printf("é¸æŠã‚’å¤‰ãˆãªã‹ã£ãŸã¨ãï¼š%d\n",c1);
-	printf("é¸æŠã‚’å¤‰ãˆãŸã¨ãï¼š%d\n",c2);
+	printf("³‰ğ‚µ‚½”\n");
+	printf("‘I‘ğ‚ğ•Ï‚¦‚È‚©‚Á‚½‚Æ‚«F%d\n",c1);
+	printf("‘I‘ğ‚ğ•Ï‚¦‚½‚Æ‚«F%d\n",c2);
 
 	return 0;
 }
