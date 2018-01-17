@@ -22,3 +22,5 @@ int main(void){
 	printf("%s",str);
 
 }
+
+/*動かないあ*/
