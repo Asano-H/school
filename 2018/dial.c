@@ -1,3 +1,5 @@
+/*142857×1,142857×2,...を計算する*/
+
 #include<stdio.h>
 int main(void){
         int i,num;
