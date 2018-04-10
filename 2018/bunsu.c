@@ -1,3 +1,5 @@
+/*1/7,2/7,...を計算する*/
+
 #include<stdio.h>
 int main(void){
 		int i;
