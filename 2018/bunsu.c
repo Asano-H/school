@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main(void){
-        int i;
+		int i;
+        double no=1.0;
         double num;
-        for(i=0;i<7;i++){
-                num = i/7;
-                printf("%d/7 = %0.15lf\n",i,num);
+        for(i=1;i<7;i++){
+
+            printf("%d/7 = %18.15lf\n",i,no/7);
+            no = no + 1.0;
         }
         return 0;
 
