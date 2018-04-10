@@ -1,3 +1,5 @@
+/*1+2+...+Nを計算する*/
+
 #include<stdio.h>
 int main(void){
         int sum,no;
@@ -8,3 +10,7 @@ int main(void){
 
         return 0;
 }
+
+/*noの値が46341以上になると－になる 
+   → オーバーフローしている
+   → int型からdouble型にする*/
