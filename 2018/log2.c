@@ -1,3 +1,5 @@
+/*底の変換公式を使って、log(2)Xを計算する*/
+
 #include<stdio.h>
 #include<math.h>
 int main(void){
