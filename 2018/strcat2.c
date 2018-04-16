@@ -1,3 +1,5 @@
+/*文字列ｓの前に文字列ｔをつないで、結果をsに代入する*/
+
 #include<stdio.h>
 #include<string.h>
 int main(void){
