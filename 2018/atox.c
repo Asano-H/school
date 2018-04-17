@@ -1,3 +1,5 @@
+/*atoi()変換テスト*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(void){
@@ -31,7 +33,7 @@ int main(void){
 	a = atoi("X12");
 	b = atol("X12");
 	// c = atoff("X1.2");
-	d = atof("X1.23456")
+	d = atof("X1.23456");
 
 	printf("a= %d\n",a);
 	printf("b= %ld\n",b);
