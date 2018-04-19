@@ -1,3 +1,5 @@
+/*キーボードから入力された面積に対して、坪数と東京ドーム何個分か返す*/
+
 #include<stdio.h>
 int main(void){
 	double r;
