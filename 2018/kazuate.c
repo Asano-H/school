@@ -1,3 +1,5 @@
+/*0~104までの数当てゲーム*/
+
 #include<stdio.h>
 int main(void){
 	int x,y,a,b,c;
