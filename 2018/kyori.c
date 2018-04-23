@@ -1,3 +1,5 @@
+/*入力された通学時間から、距離を求める*/
+
 #include<stdio.h>
 int main(void){
 	double time;
