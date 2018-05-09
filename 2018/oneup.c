@@ -1,3 +1,5 @@
+/*1up判定*/
+
 #include<stdio.h>
 
 int oneup(int n,int g){
