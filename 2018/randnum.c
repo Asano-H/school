@@ -1,3 +1,5 @@
+/*指定された範囲の乱数を作る*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
