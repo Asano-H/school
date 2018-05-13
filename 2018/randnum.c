@@ -2,24 +2,26 @@
 #include<stdlib.h>
 #include<time.h>
 
-int ransu(void){
-	int a;
-	srand((unsigned)time(NULL));
-		a=rand();
-	return a;
-}
+// int ransu(void){
+// 	int a;
+// 	srand(time(NULL));
+// 		a=rand();
+// 	return a;
+// }
 
 
 int main(void){
 	int x;
 	double y,z;
 
-	for(int i=0;i<100;i++){
-		x = (ransu()%(22))-9;
-		y = ((double)ransu())/(RANDMAX+1.0);
-		x = y*3.14*3;
+	srand(time(NULL));
 
-		printf("x = %d ",x);
+	for(int i=0;i<100;i++){
+		x = (rand()%22)-9;
+		y = ((double)rand())/(RAND_MAX+1.0);
+		z = (y*6.28)-3.14;
+
+		printf("x = %3d ",x);
 		printf("y = %f ",y);
 		printf("z = %f ",z);
 		printf("\n");
