@@ -2,18 +2,9 @@
 #include<stdlib.h>
 #include<time.h>
 
-// int ransu(void){
-// 	int a;
-// 	srand(time(NULL));
-// 		a=rand();
-// 	return a;
-// }
-
-
 int main(void){
 	int x;
 	double y,z;
-
 	srand(time(NULL));
 
 	for(int i=0;i<100;i++){
