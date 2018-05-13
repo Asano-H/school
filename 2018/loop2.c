@@ -1,3 +1,5 @@
+/*3飛ばしカウントアップのループ*/
+
 #include<stdio.h>
 int main(void){
 
