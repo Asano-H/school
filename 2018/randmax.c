@@ -1,3 +1,5 @@
+/*RAND_MAXの値を表示する*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
