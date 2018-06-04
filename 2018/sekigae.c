@@ -3,7 +3,7 @@
 #include<string.h>
 #include<time.h>
 
-#define CLASS_NUMBER 10	/*クラスの人数*/
+#define CLASS_NUMBER 44	/*クラスの人数*/
 #define NAME 10	/*名前文字数*/
 
 int ransu(int no){
