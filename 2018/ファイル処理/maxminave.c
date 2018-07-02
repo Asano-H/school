@@ -5,7 +5,7 @@ int main(void){
 	FILE *fp;
 	fp=fopen("./max_min_ave.txt","r");	//ファイルを読み込む
 
-	int ave, max=0, min=1000,sort[N];
+	int ave=0, max=0, min=1000,sort[N];
 
 //ファイル読み込み
 	for(int i=0;i<N;i++){
@@ -32,8 +32,8 @@ int main(void){
 		}
 	}
 
-	printf("ave: %d",ave/100);
-	printf("max: %d",max);
-	printf("min: %d",min);
+	printf("ave: %d\n",ave/N);
+	printf("max: %d\n",max);
+	printf("min: %d\n",min);
 
 }
