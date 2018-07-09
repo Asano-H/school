@@ -44,7 +44,7 @@ int main(void){
 	}
 
 	FILE *fp;
-	fp=fopen("./str_file.txt","W");
+	fp=fopen("str_file.txt","w");
 	if(fp==NULL){
 		printf("ファイルを開けません");
 	}else{
