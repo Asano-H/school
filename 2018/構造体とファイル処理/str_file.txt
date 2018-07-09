@@ -1,0 +1,5 @@
+tarou       150   60.0 
+hanako      157   55.0 
+jirou       163   65.0 
+sirou       175   58.0 
+saburou     198   77.0 
